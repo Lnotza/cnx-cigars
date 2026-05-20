@@ -1,0 +1,243 @@
+Cohiba Siglo II
+Strength: Medium
+“Creamy cigar with cedar, herbs, and soft floral sweetness.”
+
+Cohiba Robusto
+Strength: Medium-Full
+“Rich smoke layered with cocoa, earth, and refined pepper notes.”
+
+Montecristo No.2
+Strength: Full
+“Bold cigar with espresso, cedar, and deep earthy complexity.”
+
+Montecristo No.4
+Strength: Medium
+“Balanced smoke featuring cocoa, cedar, and smooth creamy texture.”
+
+Montecristo Edmundo
+Strength: Medium-Full
+“Medium-full cigar with roasted coffee and warm woody spice.”
+
+Romeo y Julieta No.1
+Strength: Medium
+“Smooth cigar with cedar, leather, and subtle natural sweetness.”
+
+Romeo y Julieta No.2
+Strength: Light-Medium
+“Elegant profile with soft earth, cream, and delicate spice.”
+
+Romeo y Julieta Churchill
+Strength: Medium
+“Classic cigar with cedar, oak, and balanced herbal smoothness.”
+
+Romeo y Julieta Short Churchill
+Strength: Medium
+“Medium-bodied smoke with creamy cedar and light pepper character.”
+
+Partagas Serie D No.4
+Strength: Full
+“Bold and earthy cigar layered with leather, spice, and cocoa.”
+
+Partagas Serie D No.5
+Strength: Full
+“Compact cigar delivering cedar, espresso, and sweet pepper notes.”
+
+Partagas Serie P No.2
+Strength: Full
+“Full-bodied profile with dark cocoa, earth, and black pepper.”
+
+Bolivar Royal Corona
+Strength: Medium-Full
+“Rich cigar with herbal earthiness and smooth woody complexity.”
+
+Bolivar Belicoso Fino
+Strength: Full
+“Powerful smoke with leather, cocoa, and lingering pepper finish.”
+
+Hoyo de Monterrey Epicure No.2
+Strength: Mild-Medium
+“Creamy cigar with cedar, toasted nuts, and mellow sweetness.”
+
+Hoyo de Monterrey Epicure Especial
+Strength: Medium
+“Smooth profile with coffee, cocoa, and gentle earthy spice.”
+
+H. Upmann Magnum 46
+Strength: Medium
+“Balanced cigar offering cedar, cream, and roasted coffee notes.”
+
+H. Upmann Magnum 54
+Strength: Medium
+“Creamy smoke with cocoa, sweetness, and smooth cedar finish.”
+
+H. Upmann Half Corona
+Strength: Light-Medium
+“Smooth cigar with soft spice and approachable woody character.”
+
+Trinidad Vigia
+Strength: Medium
+“Refined cigar with honeyed sweetness, cedar, and creamy richness.”
+
+Trinidad Media Luna
+Strength: Medium
+“Balanced smoke featuring nuts, leather, and subtle earthy sweetness.”
+
+Punch Short de Punch
+Strength: Medium-Full
+“Bold cigar layered with cedar, earth, and warm baking spice.”
+
+Punch Super Selection No.1
+Strength: Medium
+“Creamy profile with honey, toasted nuts, and smooth spice.”
+
+Punch Punch Tubo
+Strength: Medium
+“Balanced cigar with woody richness and gentle pepper character.”
+
+Quai d’Orsay No.50
+Strength: Mild-Medium
+“Elegant cigar with vanilla, cedar, and smooth hazelnut notes.”
+
+Juan Lopez Seleccion No.2
+Strength: Medium
+“Medium-bodied cigar with woody, herbal, and lightly spiced character.”
+
+Jose L Piedra Cazadores
+Strength: Light-Medium
+“Rustic smoke with earth, wood, and traditional Cuban richness.”
+
+Quintero Favoritos
+Strength: Medium
+“Earthy cigar with bold character and smooth lingering intensity.”
+
+Davidoff Signature 2000
+Strength: Mild
+“Elegant cigar with creamy wood and soft floral smoothness.”
+
+Davidoff Aniversario Special R
+Strength: Mild-Medium
+“Smooth profile with cream, nuts, and subtle citrus sweetness.”
+
+Davidoff Winston Churchill The Late Hour
+Strength: Medium-Full
+“Dark and smooth profile with espresso, oak, and black pepper.”
+
+Davidoff Yamasa Petit Churchill
+Strength: Medium-Full
+“Complex cigar with earthy spice and bold roasted richness.”
+
+AJ Fernandez New World Dorado
+Strength: Full
+“Bold smoke with natural tobacco richness, earth, and warm spice.”
+
+AJ Fernandez Bellas Artes Maduro
+Strength: Full
+“Dark cigar layered with chocolate, pepper, and earthy sweetness.”
+
+AJ Fernandez Dias de Gloria
+Strength: Medium-Full
+“Balanced profile with cedar, sweetness, and rich pepper character.”
+
+AJ Fernandez Enclave
+Strength: Medium-Full
+“Rich cigar featuring leather, earth, and smooth baking spice.”
+
+Arturo Fuente Hemingway Short Story
+Strength: Mild-Medium
+“Smooth cigar with cedar sweetness and gentle creamy spice.”
+
+Ashton VSG Eclipse
+Strength: Full
+“Powerful smoke with spice, earth, and refined woody richness.”
+
+Ashton Connecticut Cigarillos
+Strength: Mild
+“Creamy cigarillo with cocoa, nutmeg, and light toasted spice.”
+
+Joya de Nicaragua Cabinetta
+Strength: Mild-Medium
+“Floral cigar with leather, toast, and soft pepper notes.”
+
+Joya de Nicaragua Red Robusto
+Strength: Medium
+“Creamy smoke with caramel, cedar, citrus, and warm spice.”
+
+Oliva Serie V Double Robusto
+Strength: Medium-Full
+“Rich cigar layered with coffee, oak, and smooth natural spice.”
+
+Rocky Patel Edge B52 Corojo
+Strength: Medium-Full
+“Earthy cigar with creamy smoke and balanced pepper character.”
+
+Rocky Patel Vintage 1999 Connecticut Robusto
+Strength: Mild
+“Smooth cigar with creamy texture and mellow cedar character.”
+
+Rocky Patel Vintage 1999 Connecticut Junior
+Strength: Mild
+“Balanced smoke with cream, oak, and refined smooth finish.”
+
+E.P. Carrillo Pledge Prequel
+Strength: Full
+“Bold cigar with espresso, dark fruit, and black pepper richness.”
+
+League of Fat Bastards Serie O
+Strength: Full
+“Complex smoke with cocoa, cherry, earth, and subtle spice.”
+
+League of Fat Bastards Serie L
+Strength: Medium
+“Balanced cigar featuring cedar, cocoa, and smooth earthy sweetness.”
+
+Cusano Honduras Robusto
+Strength: Medium-Full
+“Balanced cigar with oak, earth, and gentle lingering spice.”
+
+Cusano Honduras Toro
+Strength: Medium-Full
+“Smooth smoke with woody earthiness and balanced pepper notes.”
+
+Cusano Honduras Churchill
+Strength: Medium-Full
+“Classic cigar with oak richness and warm spiced smoothness.”
+
+Villa Zamorano Robusto
+Strength: Medium
+“Everyday cigar with earthy notes and smooth woody balance.”
+
+Villa Zamorano Reserva No.15
+Strength: Medium-Full
+“Complex profile with rich habano character and balanced intensity.”
+
+Plasencia Reserva Original
+Strength: Medium
+“Smooth cigar with nuts, caramel, cedar, and natural sweetness.”
+
+My Father Flor de las Antillas Toro
+Strength: Medium-Full
+“Rich smoke layered with coffee, leather, and peppery sweetness.”
+
+My Father Le Bijou 1922 Torpedo
+Strength: Full
+“Bold cigar with intense earth, spice, and dark cocoa richness.”
+
+Nicatabaco Factory Blend No.2 Toro Deluxe
+Strength: Mild-Medium
+“Balanced cigar with aromatic tobacco and smooth Nicaraguan character.”
+
+Azan White Campana
+Strength: Medium
+“Smooth cigar with sweet notes and refined earthy complexity.”
+
+Davidoff Club Cigarillos
+Strength: Mild
+“Smooth cigarillo with cedar, nuts, and soft natural sweetness.”
+
+Villiger Export Cigarillos
+Strength: Mild-Medium
+“Woody cigarillo with cocoa, cream, and roasted nut character.”
+
+Moods MS SW F Cigarillos
+Strength: Mild-Medium
+“Smooth cigarillo with aromatic tobacco and gentle sweet spice.”

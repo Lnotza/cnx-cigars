@@ -3,15 +3,14 @@ import { useState, useMemo } from 'react';
 import styles from './FilterableMenu.module.css';
 import cigarsData from '../data/cigars.json';
 
-const CATEGORY_ORDER = ['Signature Collection', 'Premium Selection', 'Curated Selection'];
+const CATEGORY_ORDER = ['Cuban Cigars', 'New World Cigars'];
 const CATEGORY_DESC: Record<string, string> = {
-  'Signature Collection': 'The iconic marques that define Cuban cigar culture.',
-  'Premium Selection': 'Refined expressions for the discerning connoisseur.',
-  'Curated Selection': 'A carefully chosen range spanning the world\'s finest tobacco regions.',
+  'Cuban Cigars': 'Timeless Cuban heritage featuring some of the world\'s most prestigious and sought-after marques.',
+  'New World Cigars': 'Modern craftsmanship and bold character from leading cigar makers across Nicaragua, Honduras, the Dominican Republic, and beyond.',
 };
 
 export default function FilterableMenu() {
-  const [activeCategory, setActiveCategory] = useState('Signature Collection');
+  const [activeCategory, setActiveCategory] = useState('Cuban Cigars');
   const [isExpanded, setIsExpanded] = useState(false);
 
   const filteredCigars = useMemo(
@@ -57,13 +56,13 @@ export default function FilterableMenu() {
             <div className={styles.grid}>
               {filteredCigars.map((cigar, index) => (
                 <div
-                  key={cigar.id}
+                  key={`${cigar.id}-${index}`}
                   className={styles.card}
                   style={{ animationDelay: `${(index % 12) * 0.04}s` }}
                 >
                   <div className={styles.imageContainer}>
                     <img
-                      src={`/cigars/${cigar.id}.jpg`}
+                      src={`/cigars/${cigar.id}.jpg?v=9`}
                       alt={cigar.name}
                       className={styles.cigarImage}
                       onError={(e) => {

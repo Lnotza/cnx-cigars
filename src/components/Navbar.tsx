@@ -6,6 +6,7 @@ import styles from './Navbar.module.css';
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 40);
@@ -18,16 +19,26 @@ export default function Navbar() {
       <nav className={styles.container}>
         <div className={styles.logo}>
           <Link href="/" style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-            <Image src="/logo.png" alt="CNX Cigars Logo" width={38} height={38} className={styles.logoImage} />
+            <Image src="/Gallery/cnxcigarlogo.png" alt="CNX Cigars Logo" width={42} height={42} className={styles.logoImage} />
             <span>CNX <span className={styles.gold}>CIGARS</span></span>
           </Link>
         </div>
-        <div className={styles.links}>
-          <Link href="/#experience">Experience</Link>
-          <Link href="/#story">Our Story</Link>
-          <Link href="/#menu">Collection</Link>
-          <Link href="/reservation" className={styles.ctaLink}>Reserve a Seat</Link>
-          <Link href="/contact">Contact</Link>
+
+        {/* Mobile hamburger */}
+        <button
+          className={`${styles.hamburger} ${menuOpen ? styles.hamburgerOpen : ''}`}
+          onClick={() => setMenuOpen(!menuOpen)}
+          aria-label="Toggle menu"
+        >
+          <span /><span /><span />
+        </button>
+
+        <div className={`${styles.links} ${menuOpen ? styles.linksOpen : ''}`}>
+          <Link href="/#experience" onClick={() => setMenuOpen(false)}>Experience</Link>
+          <Link href="/#story" onClick={() => setMenuOpen(false)}>Our Story</Link>
+          <Link href="/#menu" onClick={() => setMenuOpen(false)}>Collection</Link>
+          <Link href="/reservation" className={styles.ctaLink} onClick={() => setMenuOpen(false)}>Reserve a Seat</Link>
+          <Link href="/contact" onClick={() => setMenuOpen(false)}>Contact</Link>
         </div>
       </nav>
     </header>

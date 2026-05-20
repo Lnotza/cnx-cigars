@@ -17,7 +17,24 @@ export default function Awards() {
       <p className={styles.eyebrow}>Recognition</p>
 
       <div className={styles.grid}>
-        {/* ── AWARD 1: Restaurant Guru 2026 ── */}
+        {/* ── AWARD 1: Habanos Point (LEFT) ── */}
+        <div className={styles.awardCol}>
+          <div className={styles.awardImageWrap}>
+            <Image
+              src="/awards/habanos-point.png"
+              alt="Habanos Authorized Point of Sale"
+              width={160}
+              height={160}
+              className={styles.awardImage}
+            />
+            <div className={styles.awardLabel}>
+              <p className={styles.awardTitle}>Habanos Point</p>
+              <p className={styles.awardYear}>Authorized Dealer</p>
+            </div>
+          </div>
+        </div>
+
+        {/* ── AWARD 2: Restaurant Guru 2026 (CENTER) ── */}
         <div className={styles.awardCol}>
           <link
             href="https://awards.infcdn.net/2024/r_gold.css"
@@ -50,14 +67,14 @@ export default function Awards() {
           </div>
         </div>
 
-        {/* ── AWARD 2: Asia Iconic Awards 2026 ── */}
+        {/* ── AWARD 3: Asia Iconic Awards 2026 (RIGHT) ── */}
         <div className={styles.awardCol}>
           <div className={styles.awardImageWrap}>
-            <Image 
-              src="/awards/asia-iconic-badge.png" 
-              alt="Asia Iconic Excellence & Innovation Awards 2026" 
-              width={160} 
-              height={160} 
+            <Image
+              src="/awards/asia-iconic-badge.png"
+              alt="Asia Iconic Excellence & Innovation Awards 2026"
+              width={160}
+              height={160}
               className={styles.awardImage}
             />
             <div className={styles.awardLabel}>

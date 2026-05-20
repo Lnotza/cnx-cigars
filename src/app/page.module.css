@@ -50,6 +50,8 @@
   letter-spacing: 2px;
   font-family: var(--font-sans);
   transition: all 0.3s ease;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
 }
 
 .sectionCta:hover {
@@ -189,12 +191,188 @@
   font-weight: 700;
   font-family: var(--font-sans);
   transition: all 0.3s ease;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
 }
 
 .ctaPrimaryLight:hover {
   background: var(--color-gold-hover);
   color: #222831;
   transform: translateY(-2px);
+}
+
+/* ── NO.1 STOCK SECTION ── */
+.stockSection {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  min-height: 80vh;
+  border-top: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border);
+}
+
+.stockInner {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.stockBadge {
+  display: inline-block;
+  font-family: var(--font-serif);
+  font-size: clamp(3rem, 6vw, 5rem);
+  font-weight: 700;
+  color: var(--color-gold);
+  line-height: 1;
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+
+.stockBadge::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 2px;
+  background: var(--color-gold);
+  margin: 1rem auto 0;
+}
+
+.stockTitle {
+  font-family: var(--font-serif);
+  font-size: clamp(1.8rem, 3.5vw, 2.8rem);
+  font-weight: 400;
+  line-height: 1.2;
+  color: var(--foreground);
+  margin-bottom: 1.5rem;
+}
+
+.stockSubtitle {
+  font-size: 1.05rem;
+  color: var(--color-muted);
+  line-height: 1.7;
+  max-width: 600px;
+  margin: 0 auto 3rem;
+}
+
+.stockSubtitle strong {
+  color: var(--color-gold);
+}
+
+.stockStats {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2.5rem;
+  margin: 2rem 0;
+  flex-wrap: wrap;
+}
+
+.statItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.statNumber {
+  font-family: var(--font-serif);
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: var(--color-gold);
+  line-height: 1;
+}
+
+.statLabel {
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--color-muted);
+  font-family: var(--font-sans);
+}
+
+.statDivider {
+  width: 1px;
+  height: 50px;
+  background: var(--color-border);
+}
+
+.stockDesc {
+  font-size: 0.97rem;
+  line-height: 1.85;
+  color: var(--color-muted);
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+.stockDesc strong {
+  color: var(--foreground);
+}
+
+/* ── HORECA CONSULTANCY ── */
+.horecaSection {
+  padding: 7rem 2rem;
+  background: var(--color-dark-gray);
+  border-top: 1px solid var(--color-border);
+}
+
+.horecaInner {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5rem;
+  align-items: center;
+}
+
+.horecaContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.horecaVisual {
+  display: flex;
+  justify-content: center;
+}
+
+.horecaCard {
+  background: var(--background);
+  border: 1px solid var(--color-border);
+  padding: 3rem;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.horecaCard h3 {
+  font-family: var(--font-serif);
+  font-size: 1.3rem;
+  color: var(--color-gold);
+  margin-bottom: 1.5rem;
+  font-weight: 400;
+}
+
+.horecaCard ul {
+  list-style: none;
+  padding: 0;
+}
+
+.horecaCard li {
+  padding: 0.7rem 0;
+  border-bottom: 1px solid var(--color-border);
+  color: var(--color-muted);
+  font-size: 0.92rem;
+  position: relative;
+  padding-left: 1.5rem;
+}
+
+.horecaCard li:last-child {
+  border-bottom: none;
+}
+
+.horecaCard li::before {
+  content: '✦';
+  position: absolute;
+  left: 0;
+  color: var(--color-gold);
+  font-size: 0.7rem;
 }
 
 /* ── BRANDS ── */
@@ -208,6 +386,15 @@
   max-width: 1200px;
   margin: 0 auto;
   text-align: center;
+}
+
+.brandsSectionTitle {
+  font-family: var(--font-serif);
+  font-size: clamp(2.2rem, 4.5vw, 3.5rem);
+  font-weight: 400;
+  line-height: 1.15;
+  color: var(--foreground);
+  margin-bottom: 0.5rem;
 }
 
 .brandsGrid {
@@ -267,10 +454,31 @@
   .brandsGrid {
     grid-template-columns: 1fr 1fr;
   }
+
+  .horecaInner {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .stockStats {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .statDivider {
+    width: 50px;
+    height: 1px;
+  }
 }
 
 @media (max-width: 600px) {
   .brandsGrid {
     grid-template-columns: 1fr;
   }
+}
+
+.stockBadgeImage {
+  width: 40px;
+  height: 40px;
+  margin-left: 0.5rem;
 }

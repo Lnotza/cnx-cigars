@@ -62,6 +62,37 @@
   line-height: 1.7;
 }
 
+.mottoWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  font-family: var(--font-serif);
+  font-size: clamp(1.1rem, 2vw, 1.5rem);
+  font-weight: 400;
+  color: var(--color-gold);
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  margin: 0.5rem 0;
+}
+
+.mottoText {
+  position: relative;
+  transition: transform 0.3s ease;
+  cursor: default;
+}
+
+.mottoText:hover {
+  transform: translateY(-2px);
+}
+
+.mottoText:not(:last-child)::after {
+  content: '·';
+  position: absolute;
+  right: -1rem;
+  opacity: 0.5;
+}
+
 .ctas {
   display: flex;
   gap: 1.25rem;
@@ -81,6 +112,8 @@
   font-weight: 700;
   font-family: var(--font-sans);
   transition: background 0.3s ease, transform 0.2s ease;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
 }
 
 .ctaPrimary:hover {
@@ -100,6 +133,8 @@
   letter-spacing: 2px;
   font-family: var(--font-sans);
   transition: border-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
 }
 
 .ctaSecondary:hover {
@@ -135,5 +170,22 @@
 
 @media (max-width: 768px) {
   .title { font-size: clamp(2.2rem, 8vw, 3.5rem); }
-  .ctas { flex-direction: column; align-items: center; }
+  .ctas { 
+    flex-direction: column; 
+    align-items: center; 
+    width: 100%;
+    gap: 1rem;
+  }
+  .ctaPrimary, .ctaSecondary {
+    width: 100%;
+    max-width: 300px;
+  }
+  .mottoWrapper { 
+    gap: 0.8rem; 
+    letter-spacing: 2px;
+    font-size: 0.9rem;
+  }
+  .mottoText:not(:last-child)::after {
+    right: -0.6rem;
+  }
 }

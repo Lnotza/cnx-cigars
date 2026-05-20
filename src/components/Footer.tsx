@@ -7,7 +7,7 @@ export default function Footer() {
         <div className={styles.col}>
           <h3 className={styles.brand}>CNX <span className={styles.gold}>CIGARS</span></h3>
           <p className={styles.desc}>
-            The official licensed & trusted distributor of premium cigar services and accessories to Northern Thailand.
+            The official licensed &amp; trusted distributor of premium cigar services and accessories to Northern Thailand.
           </p>
         </div>
         
@@ -21,7 +21,7 @@ export default function Footer() {
           </p>
           <div className={styles.mapContainer}>
             <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3777.0605929653835!2d98.9649174154848!3d18.79796038724286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30da3a00259e88cb%3A0xbce5c739a859e2ab!2sCNX%20Cigars%20International%20Cigar%20Bar%20and%20lounge!5e0!3m2!1sen!2sth!4v1714777200000!5m2!1sen!2sth" 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3777.0222675400623!2d98.96427707595375!3d18.797160960665547!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30da3b1ce8a65eb7%3A0x2348f8e88b96ea1!2sCNX%20Cigars%20%7C%20International%20Cigar%20Bar%20%26%20lounge%20%7C%20Cigars%20Chiang%20Mai%20Co.%2C%20Ltd!5e0!3m2!1sen!2sth!4v1778629732758!5m2!1sen!2sth" 
               width="100%" 
               height="200" 
               style={{ border: 0, borderRadius: '4px', marginTop: '1rem' }} 
