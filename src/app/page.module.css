@@ -434,16 +434,30 @@
 /* ── RESPONSIVE ── */
 @media (max-width: 900px) {
   .experienceSection,
-  .communitySection {
+  .communitySection,
+  .stockSection {
     grid-template-columns: 1fr;
   }
 
+  /* Community: on mobile, show the image first (it's the second child in the DOM) */
+  .communitySection .splitLeft {
+    order: -1;
+  }
+
   .splitRight {
-    padding: 4rem 2rem;
+    padding: 3.5rem 1.5rem;
   }
 
   .splitLeft {
-    min-height: 360px;
+    min-height: 300px;
+  }
+
+  .imgBlock {
+    min-height: 300px;
+  }
+
+  .storySection {
+    padding: 5rem 1.5rem;
   }
 
   .storyColumns {
@@ -455,25 +469,97 @@
     grid-template-columns: 1fr 1fr;
   }
 
+  .horecaSection {
+    padding: 5rem 1.5rem;
+  }
+
   .horecaInner {
     grid-template-columns: 1fr;
     gap: 3rem;
   }
 
+  .horecaCard {
+    max-width: 100%;
+  }
+
+  .barSection {
+    min-height: 60vh;
+  }
+
+  .barContent {
+    padding: 2rem 1.5rem;
+  }
+
+  .barTitle {
+    font-size: clamp(1.6rem, 6vw, 2.5rem);
+  }
+
+  .barSubtitle {
+    font-size: 0.95rem;
+  }
+
   .stockStats {
-    flex-direction: column;
-    gap: 2rem;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1.5rem;
   }
 
   .statDivider {
-    width: 50px;
-    height: 1px;
+    width: 1px;
+    height: 40px;
+  }
+
+  .statNumber {
+    font-size: 1.8rem;
+  }
+
+  .statLabel {
+    font-size: 0.65rem;
+    letter-spacing: 1px;
+  }
+
+  .brandsSection {
+    padding: 5rem 1.5rem;
   }
 }
 
 @media (max-width: 600px) {
   .brandsGrid {
     grid-template-columns: 1fr;
+  }
+
+  .splitRight {
+    padding: 2.5rem 1.2rem;
+  }
+
+  .sectionTitle {
+    font-size: clamp(1.5rem, 6vw, 2rem);
+  }
+
+  .stockStats {
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .statDivider {
+    width: 50px;
+    height: 1px;
+  }
+
+  .sectionCta,
+  .ctaPrimaryLight {
+    width: 100%;
+    text-align: center;
+    padding: 1rem 1.5rem;
+  }
+
+  .horecaCard {
+    padding: 2rem 1.5rem;
+  }
+
+  .barSection {
+    min-height: 50vh;
   }
 }
 
