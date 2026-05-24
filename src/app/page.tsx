@@ -70,7 +70,7 @@ export default function Home() {
         </div>
         <div className={styles.splitLeft}>
           <div className={styles.imgBlock} style={{ position: 'relative', width: '100%', height: '100%' }}>
-            <Image src="/Gallery/More Than A lounge circle.jpg" alt="CNX Cigars Community Gathering" fill sizes="100vw" style={{ objectFit: 'cover' }} />
+            <Image src="/Gallery/more-than-a-lounge-circle.jpg" alt="CNX Cigars Community Gathering" fill sizes="100vw" style={{ objectFit: 'cover' }} />
           </div>
         </div>
       </section>
@@ -79,7 +79,7 @@ export default function Home() {
       <section className={styles.barSection}>
         <div className={styles.barOverlay} />
         <div className={styles.barBg}>
-          <Image src="/Gallery/perfect pairing.jpg" alt="CNX Cigars Bar" fill style={{ objectFit: 'cover' }} />
+          <Image src="/Gallery/perfect-pairing.jpg" alt="CNX Cigars Bar" fill style={{ objectFit: 'cover' }} />
         </div>
         <div className={styles.barContent}>
           <p className={styles.eyebrowLight}>The Bar</p>
